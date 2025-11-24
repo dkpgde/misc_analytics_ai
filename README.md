@@ -14,7 +14,7 @@ Simple test on a synthetic dataset.
 Time series forecasting: R2 of 93% with ±15% noise introduced.  
 Label prediction accuracy 90%.  
 
-### Chronos
+### Chronos:
 Dataset: [Store Item Demand Forecasting Challenge](https://www.kaggle.com/competitions/demand-forecasting-kernels-only/overview) (Kaggle)  
 Simulation of Chronos Bolt vs a Trend-Adjusted Seasonal Baseline Model.    
 Chronos outperforms by 50% across the entire dataset.     
@@ -22,6 +22,6 @@ Wins by more on items with higher volatility, loses on items with lower volatili
 Bolt used despite not being recommended for such long horizons because of it's speed.  
 Bolt is capable of processing the entire dataset on-device in about 25 minutes.  
 
-### BPM
+### BPM:
 Process mining done on [BPI Challenge 2019 dataset](https://icpmconference.org/2019/icpm-2019/contests-challenges/bpi-challenge-2019/) (Purchase-to-Pay)    
 20% speedup opportunity found.  
