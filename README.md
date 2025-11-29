@@ -4,8 +4,8 @@ This is a modification of the original code from:
 **EVBattery: A Large-Scale Electric Vehicle Dataset for Battery Health and Capacity Estimation**
 > He et al. (2022). **arXiv:2201.12358**. [Link](https://arxiv.org/abs/2201.12358)  
 
-Added a more robust training approach to all models, using high epoch numbers and early stopping.
-0. Original GRU DyAD:
+Added a more robust training approach to all models, using high epoch numbers and early stopping.  
+Baseline (original GRU DyAD):
 AUROC: 0.698 ± 0.128
 1. Transformers instead of GRU:
 AUROC: 0.8185 ± 0.0762
