@@ -7,18 +7,18 @@ This is a modification of the original code from:
 Added a more robust training approach to all models, using high epoch numbers and early stopping.  
 Baseline (original GRU DyAD):
 AUROC: 0.698 ± 0.128
-1. Transformers instead of GRU:
-AUROC: 0.8185 ± 0.0762
-Train time (seconds): 596.4706 ± 381.4815
-Test time (seconds): 20.3622 ± 1.5165
-2. Original GRU with Huber loss during inference:
-AUROC: 0.7973 ± 0.0604
-Train time (seconds): 344.2512 ± 44.7582
-Test time (seconds): 17.2531 ± 0.7793
-3. Original GRU with MSE during inference (improved by more robust training):
-AUROC: 0.7414 ± 0.1124
-Train time (seconds): 270.0323 ± 108.7613
-Test time (seconds): 17.7491 ± 2.2887
+1. Transformers instead of GRU:  
+AUROC: 0.8185 ± 0.0762  
+Train time (seconds): 596.4706 ± 381.4815  
+Test time (seconds): 20.3622 ± 1.5165  
+2. Original GRU with Huber loss during inference:  
+AUROC: 0.7973 ± 0.0604  
+Train time (seconds): 344.2512 ± 44.7582  
+Test time (seconds): 17.2531 ± 0.7793  
+3. Original GRU with MSE during inference (improved by more robust training):  
+AUROC: 0.7414 ± 0.1124  
+Train time (seconds): 270.0323 ± 108.7613  
+Test time (seconds): 17.7491 ± 2.2887  
 
 ### RPT-1:
 Simple test on a synthetic dataset.   
