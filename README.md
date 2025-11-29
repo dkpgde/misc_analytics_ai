@@ -4,6 +4,8 @@ This is a modification of the original code from:
 **EVBattery: A Large-Scale Electric Vehicle Dataset for Battery Health and Capacity Estimation**
 > He et al. (2022). **arXiv:2201.12358**. [Link](https://arxiv.org/abs/2201.12358)  
 
+This version only uses Dataset 3 due to limited compute.
+
 Added a more robust training approach to all models, using high epoch numbers and early stopping.  
 Baseline (original GRU DyAD):
 AUROC: 0.698 ± 0.128
@@ -19,6 +21,8 @@ Test time (seconds): 17.2531 ± 0.7793
 AUROC: 0.7414 ± 0.1124  
 Train time (seconds): 270.0323 ± 108.7613  
 Test time (seconds): 17.7491 ± 2.2887  
+
+WIP: Trying out Mamba in place of GRU; Using all datasets.
 
 ### RPT-1:
 Simple test on a synthetic dataset.   
