@@ -22,7 +22,7 @@ AUROC: 0.7414 ± 0.1124
 Train time (seconds): 270.0323 ± 108.7613  
 Test time (seconds): 17.7491 ± 2.2887  
 
-WIP: Trying out Mamba in place of GRU; Using all datasets.
+WIP: Using datasets 1 and 3 with bigger networks on AWS.
 
 ### RPT-1:
 Simple test on a synthetic dataset.   
