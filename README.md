@@ -39,7 +39,7 @@ Label prediction accuracy 90%.
 Experiment in using SAP RPT-1 for feature imputation, compared to mean/mode, KNN, MICE.  
 RPT-1 wins out in the MNAR scenario, as it is capable of uncovering the patterns.  
 Advantage in the MCAR scenario is insignificant.  
-Results for MNAR:
+Results for MNAR:  
 Method    Time (s)  Rec_RMSE  Std_Dev_Ratio (reconstructed standard deviation)  
 Mean/Mode    0.02    7.7050         0.6234     
 KNN         93.61    7.7381         0.7152     
